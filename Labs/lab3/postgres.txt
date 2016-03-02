@@ -1,0 +1,11 @@
+1.  Install Postgres
+	-Server
+	-Port
+	-Authentication
+	
+2.	Install drivers
+	gem 'pg' --> gemfile
+	
+3.	Create a user in Postgres --> command line
+
+4.  Create DB
