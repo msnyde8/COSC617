@@ -61,7 +61,9 @@
 				//});
 
 				$scope.edit = function (book) {
-					
+				    $scope.view = 'Edit';
+				    $scope.editBook = book;
+				    $scope.heading = 'Edit!';
 				};
 
 				$scope.delete = function (book) {
@@ -69,13 +71,21 @@
 				};
 
 				$scope.new = function () {
-					
-					
-					
+				    $scope.view = 'New';
+				    $scope.newBook = {}; //open and closed brace is a new object
+				    $scope.books.push($scope.newBook); //adding to end of array.  this is called 'push'.  we forgot scope.BOOKS!
+				    $scope.heading = 'New Book!';
 				};
 
 				$scope.submitNew = function () {
-					
+				    for (var i = 0; i < $scope.books.length - 1; i++) {
+				        if ($scope.newBook.title === $scope.books[i].title &&
+                            $scope.newBook.author === $scope.books[i].author) {
+				            $scope.books.splice($scope.books.length - 1, 1);
+				            $scope.view = '';
+				            $scope.heading = 'My Library';
+				        }
+				    }
 				};
 
 				$scope.submitEdit = function () {
