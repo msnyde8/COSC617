@@ -8,7 +8,7 @@
 			// $filter is to eliminate duplicates while editing.
 			function ($scope, $http, $log, $filter) {
 				$scope.heading = 'My Library';
-				
+				$scope.view = '';
 				$scope.error = false;
 				$scope.books = 
 				    [

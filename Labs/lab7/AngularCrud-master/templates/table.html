@@ -7,11 +7,11 @@
 		<th>Star Rating</th>
 		<th>Operations</th>
 	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+	<tr ng-repeat="book in books">
+		<td>{{book.title}}</td>
+		<td>{{book.author}}</td>
+		<td>{{book.pageCount}}</td>
+		<td>{{book.starRating}}</td>
 		<td>
 			<span class="link" ng-click="edit(book)">Edit</span>
 			&nbsp;&nbsp;
