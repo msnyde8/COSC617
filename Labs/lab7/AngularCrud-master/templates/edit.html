@@ -1,0 +1,11 @@
+﻿<form ng-submit="submitEdit()">
+	<label for="editTitle">Title</label><br />
+	<input type="text" ng-model="editBook.title" id="editTitle" required /><br />
+	<label for="editAuthor">Author</label><br />
+	<input type="text" ng-model="editBook.author" id="editAuthor" required /><br />
+	<label for="editPageCount">Page Count</label><br />
+	<input type="text" ng-model="editBook.pageCount" id="editPageCount" required /><br />
+	<label for="editStarRating">Star Rating</label><br />
+	<input type="text" ng-model="editBook.starRating" id="editStarRating" required /><br />
+	<button type="submit">Submit</button>
+</form>

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html ng-app="testApp">
+<head>
+    <title>My Angular App</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body ng-controller="myController" ng-cloak>
+	<h1>{{heading}}</h1>
+	
+
+	<div ng-if="error" class="errorMessage" ng-cloak>
+		There was an error loading in the data.
+	</div>
+
+	<div ng-if="!error" ng-include="'templates/table.html'"></div>
+	<div ng-if="view === 'New'" ng-include="'templates/new.html'"></div>
+	<div ng-if="view === 'Edit'" ng-include="'templates/edit.html'"></div>
+	<br/>
+	<footer>Angular Demo for COSC 617</footer>
+	<script src="js/angular.js"></script>
+	<script src="js/testApp.js"></script>
+</body>
+</html>

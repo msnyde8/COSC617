@@ -1,0 +1,26 @@
+﻿th {
+	text-align: left;
+	color: white;
+	background-color: #4CAF50;
+	font-family: sans-serif;
+}
+table, th, td {
+	border: 1px solid black;
+}
+th, td {
+	padding: 3px;
+}
+.link {
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+}
+label {
+	font-weight: bold;
+}
+footer {
+	font-size: 12px;
+}
+.errorMessage {
+	color: red;
+}
