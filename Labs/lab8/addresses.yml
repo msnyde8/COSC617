@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Sherlock
+  address: 221B Baker Street
+  email: null
+  phone: 745-4343
+
+two:
+  name: Jill
+  address: Up the Hill
+  email: null
+  phone: 645-6364
+
+ruby:
+  name: Jane Doe
+  address: 123 Easy Street
+  email: jane.doe@nowhere.net
+  phone: 666-777-8888
