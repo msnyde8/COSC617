@@ -1,0 +1,5 @@
+The code completed in class is available at: https://github.com/siddharthkaza/Lec2DemoRails42 
+
+You can download the code as zip for now and use it in Rubymine (create new project in that folder). Or you can clone the git repository if you know how to do that. We will be learning about cloning in later lectures so don't worry. 
+
+Always run 'bundle install' when you get the code from somewhere else to get the right versions of the gems installed
