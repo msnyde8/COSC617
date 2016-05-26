@@ -1,0 +1,47 @@
+Great Gems:
+https://infinum.co/the-capsized-eight/articles/a-gem-for-every-occasion-11-great-ruby-libraries-we-use-on-every-project
+
+Rails Installation Instructions OS X El Capitan:
+http://railsapps.github.io/installrubyonrails-mac.html
+
+A Ruby Book:
+http://www.rubycentral.com/book
+
+A Ruby Tutorial:
+http://www.rubyist.net/~slagell/ruby/index.html
+
+Another good Ruby tutorial:
+http://rubymonk.com/
+
+Rails API Documentation (Only for latest version):
+http://api.rubyonrails.org/
+
+Did Rails Sink Twitter?:
+http://www.sitepoint.com/blogs/2008/06/06/did-rails-sink-twitter/
+
+Introduction to Rack App:
+http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html
+
+A Good List of Modern Web Frameworks:
+http://www.webdesignish.com/the-best-web-development-frameworks.html
+
+To install and access documentation on your machine:
+http://www.resolvedtotest.com/2009/04/16/rubygems-rdoc-information-on-installed-gems/
+
+Microsoft Web Framework:
+http://www.microsoft.com/web/
+
+Eclipse - eGit plugin tutorial:
+http://wiki.eclipse.org/EGit/User_Guide
+
+Great tutorial and book on Git (Read the intro chapter and 2.1 and 2.2 to get a good idea about git. The other chapters supply advanced information.):
+http://git-scm.com/
+
+A great Node.js tutorial (I like this because it doesn't show quick hacks but talks about the general techniques.):
+http://www.nodebeginner.org/#javascript-and-nodejs
+
+Ruby Style Guide:
+https://github.com/bbatsov/ruby-style-guide
+
+Installation on Ubuntu:
+https://gorails.com/setup/ubuntu/14.10
